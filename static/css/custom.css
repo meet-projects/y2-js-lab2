@@ -1,0 +1,76 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+body {
+  /* padding-top: 20px; */
+  padding-bottom: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+#custom-header {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#custom-brand {
+  font-size: 20px;
+}
+
+.tab-content {
+  padding: 5px 15px;
+}
+
+.custom-hidden {
+  display: none;
+}
+
+#profile-photo {
+  width: 250px;
+  margin: 15px;
+}
+
+.navbar-nav > li {
+  font-size: 18px;
+}
+
+.dropdown-menu {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav > li > a, .navbar-brand {
+    padding-top:11px !important; 
+    padding-bottom:0 !important;
+    height: 40px;
+  }
+  
+  .navbar {min-height: 40px !important;}
+
+  .paper-images {
+    float: right;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .label {
+    display: block;
+    text-align: left;
+    width: 250px;
+    white-space: normal;
+  }
+}

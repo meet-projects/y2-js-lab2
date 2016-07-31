@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>MEET Y2 CS Summary</title>
+
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/custom.css') }}" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  </head>
+
+  <body>
+
+    <div class="container hidden-xs" id="custom-header">
+      <h1 class="text-center">MEET Y2 CS Summary</h1>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="navbar-header">
+        <span id="custom-brand"
+         class="navbar-brand visible-xs"><strong>MEET Y2 CS</strong> |
+          Home</span>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="text-center">
+        <img src="http://meet.mit.edu/wp-content/uploads/2015/07/home-bg.jpg"
+         id="profile-photo" class="img-circle">
+      </div>
+      <h3>What we've done in Y2 CS so far</h3>
+      <div class="alert alert-warning">
+        <p>
+        We're almost halfway through MEET Y2 CS! You will be starting work
+        on the projects soon.
+        </p>
+      </div>
+      <p>
+        We started off learning about HTML and CSS so that we could make
+        websites. This is called the "frontend", and it's the part of the
+        webapp that your users see when they log on.
+      </p>
+
+      <p>
+      Then, we did a review of Python and learned about relational databases.
+      We connected Python with databases using something called
+      <a href="https://gist.github.com/rameshvs/3e3fb467173dc7ddb72c">SQLAlchemy</a>.
+      Databases store all the information for your webapp.
+      </p>
+
+      <p>
+        After talking about databases, we learned how to build a webserver
+        using Flask. Web servers take whatever you type in to the browser
+        (for example, like <a href="http://tinyurl.com/meety2cs">http://tinyurl.com/meety2cs</a>), and use Python functions to show you the right HTML
+        in your browser.
+      </p>
+
+      <p>
+        Now, we're learning JavaScript. We can make dynamic pages that change
+      when we click on things or type data in boxes.
+      </p>
+
+      <p>
+        Technologies that you know:
+      </p>
+      <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>SQLAlchemy</li>
+          <li>Flask</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+      </ul>
+    </div>
+
+  </body>
+</html>
+<!-- Original design and layout by George Chen (georgehc@csail.mit.edu). All rights reserved. -->
