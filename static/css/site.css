@@ -2,9 +2,16 @@
 
 body {
   /* padding-top: 20px; */
+  background-color: green;
   padding-bottom: 40px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
+  color: blue;
+}
+
+.alert {
+    background-color: magenta;
+    color: yellow;
 }
 
 h1, h2, h3, h4, h5, h6 {
