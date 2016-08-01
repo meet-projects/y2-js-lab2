@@ -1,4 +1,4 @@
-# JavaScript lab 1
+# JavaScript lab 2
 
 In this lab, you'll write some more JavaScript.
 
